@@ -159,10 +159,14 @@ h2 {
 #skills {
   background: #fff;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #resume {
-  margin: auto;
+  /* margin: auto; */
+  margin-top: 20px;
   cursor: pointer;
 }
 
@@ -263,13 +267,14 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }
 .chip {
-  padding: 8px 10px;
-  border-radius: 10px;
+  background: #2f4058;
+  color: whitesmoke;
+  border-radius: 5px;
   font-weight: 600;
   font-size: 12px;
   margin: 10px 5px;
-  background: #2f4058;
-  color: whitesmoke;
+  padding: 4px 10px;
+  text-align: center;
 }
 
 /* Media Queries */
